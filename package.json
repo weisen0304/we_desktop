@@ -1,5 +1,5 @@
 {
-  "name": "鲸灵应用",
+  "name": "we_desktop",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
@@ -31,7 +31,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "鲸灵应用"
+            "name": "we_desktop"
           }
         },
         {

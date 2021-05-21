@@ -200,7 +200,7 @@ function setTray() {
   })
   if (global.process.platform !== 'darwin') {
     // setToolTip 仅在win上显示， 在mac上使用不会报错但也没有效果的样子
-    appTray.setToolTip('鲸灵应用')
+    appTray.setToolTip('we_desktop')
     /** 
      * tray设置contextmenu后，在mac端的click事件将会无效
      * 为了表现与其他应用一致，不在mac上设置该属性
